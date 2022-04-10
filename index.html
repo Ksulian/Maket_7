@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Cargo</title>
+</head>
+<body>
+    <!-- первая секция -->
+    <!-- добавление логотипа, навигации, кнопки -->
+    <header class="header">
+        <div class="container">
+            <div class="header_wrapper">
+                <div class="header_logo">
+                    <a href="#">
+                        <img src="assets/img/icons/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <nav class="nav">
+                    <a href="#" class="header_nav">Цены и сроки</a>
+                    <a href="#" class="header_nav">Услуги</a>
+                    <a href="#" class="header_nav">О компании </a>
+                    <a href="#" class="header_nav">Контакты</a>
+                    <a href="#" class="header_nav">Оформить груз</a>
+                </nav>
+                <div class="header_btn">
+                    <button class="btn_header">Оставить заявку</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- главная секция -->
+    <!-- добавление изображения, текстов, кнопки, стрелок и иконок -->
+    <section class="main">
+        <div class="main_back">
+            <div class="container">
+                <div class="main_all">
+                    <a href="#">
+                        <img src="assets/img/icons/arrow_left.png" alt="icon" class="main_arrow1">
+                    </a>
+                    <div class="main_wrapper">
+                        <div class="main_content">
+                            <h1 class="main_title">Прямое КАРГО <br> из Китая</h1>
+                            <p class="main_text">
+                                Доставляем любые грузы из Китая <br> по честной цене
+                            </p>
+                            <button class="main_btn">
+                                Рассчитать стоимость
+                                <img src="assets/img/icons/arrow.png" alt="arrow" class="main_btn_icon">
+                            </button>
+                        </div>
+                        <div class="main_eclipse">
+                            <img src="assets/img/icons/eclipse.png" alt="icon">
+                            <img src="assets/img/icons/eclipse.png" alt="icon">
+                            <img src="assets/img/icons/eclipse.png" alt="icon">
+                            <img src="assets/img/icons/eclipse2.png" alt="icon">
+                        </div>
+                    </div>
+                    <a href="#">
+                        <img src="assets/img/icons/arrow_right.png" alt="icon" class="main_arrow2">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- вторая секция -->
+    <!-- добавление фотографий, текстов, полей ввода текста, поле внесения файла, кнопка -->
+    <section class="calcul">
+        <div class="container">
+            <div class="calcul_wrapper">
+                <div class="calcul_content">
+                    <h2 class="calcul_title">Получить рассчет стоимости <br>доставки вашего груза
+                        <img src="assets/img/icons/line.png" alt="line" class="calcul_title_line">
+                    </h2>
+                    <div class="calcul_block">
+                        <div class="calcul_card">
+                            <div class="calcul_inputs">
+                                <div class="calcul_stone">
+                                    <div class="calcul_stones">
+                                        <p class="calcul_intro">Категория товара:</p>
+                                        <input type="text" class="calcul_input" placeholder="Категория товара">
+                                    </div>
+                                    <div class="calcul_stones">
+                                        <p class="calcul_intro">Стоимость груза:</p>
+                                        <input type="text" class="calcul_input" placeholder="Введите стоимость">
+                                    </div>
+                                </div>
+                                <div class="calcul_stone">
+                                    <div class="calcul_stones">
+                                        <p class="calcul_intro">Вес груза (кг):</p>
+                                        <input type="text" class="calcul_input" placeholder="Введите вес">
+                                    </div>
+                                    <div class="calcul_stones">
+                                        <div class="calcul_text">
+                                            <p class="calcul_intro">Объем груза (м3):</p>
+                                            <button class="calcul_cal">Рассчитать</button>
+                                        </div>
+                                        <input type="text" class="calcul_input" placeholder="Введите объем">
+                                    </div>
+                                </div>
+                                <div class="calcul_stone">
+                                    <div class="calcul_checks">
+                                        <div class="calcul_check">
+                                            <input type="checkbox" name="strah" id="1" class="check">
+                                            <label class="calcul_check_text" for="checkbox-id">Страховка</label>
+                                        </div>
+                                        <div class="calcul_check">
+                                            <input type="checkbox" name="strah" id="1" class="check">
+                                            <p class="calcul_check_text">Таможенное оформление</p>
+                                        </div>
+                                    </div>
+                                    <div class="calcul_stones2">
+                                        <div class="calcul_text">
+                                            <p class="calcul_intro">Код ТН ВЭД:</p>
+                                        </div>
+                                        <input type="text" class="calcul_input" placeholder="Введите код">
+                                    </div>
+                                </div>
+                                <div class="calcul_photos">
+                                    <div class="calcul_photos_text">
+                                        <p class="calcul_photos_text_photo">фотография.jpeg</p>
+                                        <button class="calcul_photos_btn">Удалить фото</button>
+                                    </div>
+                                    <form id="upload-container" method="POST" action="send.php">
+                                        <div>
+                                            <input id="file-input" type="file" name="file" multiple>
+                                            <label for="file-input">Загрузить фото товара</label>
+                                        </div>
+                                   </form>
+                                </div>
+                                <button class="calcul_btn">Следующий шаг
+                                    <img src="assets/img/icons/arrow.png" alt="arrow" class="btn_icon">
+                                </button>
+                            </div>           
+                        </div>
+                        <div class="calcul_numbers">
+                            <p class="calcul_one">1</p>
+                            <p class="calcul_number">2</p>
+                            <p class="calcul_number">3</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="calcul_photo">
+                    <img src="assets/img/photos/man.png" alt="photo">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -694,7 +694,7 @@ a{
     background: linear-gradient(0deg, #363A4D, #363A4D), #F7F7F7;
     border-radius: 20px;
     width: 1820px;
-    height: 725px;
+    height: 800px;
     margin: 0 auto;
 }
 /*  */
@@ -728,7 +728,7 @@ a{
 .servis_block{
     background: url('../img/photos/tovar.png') no-repeat center center / cover;
     width: 400px;
-    height: 490px;
+    height: 540px;
     transition: 0.5s;
 }
 .servis_block:hover{
@@ -737,7 +737,7 @@ a{
 .servis_block2{
     background: url('../img/photos/goods.png') no-repeat center center / cover;
     width: 400px;
-    height: 490px;
+    height: 540px;
     transition: 0.5s;
 }
 .servis_block2:hover{
@@ -746,7 +746,7 @@ a{
 .servis_block3{
     background: url('../img/photos/stock.png') no-repeat center center / cover;
     width: 400px;
-    height: 490px;
+    height:540px;
     transition: 0.5s;
 }
 .servis_block3:hover{
@@ -755,7 +755,7 @@ a{
 /*  */
 .servis_block_content{
     margin-top: 230px;
-    margin-left: 45px;
+    margin-left: 35px;
 }
 /*  */
 .servis_block_title{
@@ -794,4 +794,85 @@ a{
 .servis_block_btn:hover{
     background-color: #E58D35;
     box-shadow: 0 0 5px #E58D35;
+}
+
+/* шестая секция */
+/*  */
+.about_wrapper{
+    margin: 100px 0;
+}
+/*  */
+.about_title{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 124.5%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.about_subtitle{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 124.5%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;   
+}
+/*  */
+.about_line{
+    display: flex;
+    margin: 0 auto;
+}
+/*  */
+.about_block{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*  */
+.about_text{
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 156.5%;
+    color: #FFFFFF;
+}
+/*  */
+.about_photo{
+    transition: 0.5s;
+}
+.about_photo:hover{
+    transform: scale(1.05);
+}
+/*  */
+.about_block_btn{
+    background: #E58D35;
+    border-radius: 90px;
+    border: none;
+    width: 243px;
+    height: 68px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 146%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.about_block_btn:hover{
+    box-shadow: 0 0 5px #E58D35;
+}
+.arrow_about{
+    margin-left: 20px;
 }

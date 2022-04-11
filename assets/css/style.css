@@ -461,3 +461,72 @@ a{
 .calcul_photo{
     margin-left: 50px;
 }
+
+/*  */
+/*  */
+.we{
+    background: linear-gradient(0deg, #363A4D, #363A4D), #F7F7F7;
+    border-radius: 20px;
+    width: 1820px;
+    height: 725px;
+    margin: 0 auto;
+}
+/*  */
+.we_title{
+    text-align: center;
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 124.5%;
+    padding-top: 90px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+    transition: color 0.5s linear;
+}
+.we_title:hover{
+    color: #E58D35;
+}
+/*  */
+.we_line{
+    display: flex;
+    margin: 0 auto;
+}
+/*  */
+.we_icon{
+    transition: 0.5s;
+}
+.we_icon:hover{
+    transform: scale(1.1);
+}
+/*  */
+.we_block{
+    text-align: center;
+}
+.we_block2{
+    text-align: center;
+    margin-right: -20px;
+}
+.we_block3{
+    text-align: center;
+    margin-right: -48px;
+
+}
+/*  */
+.we_icons{
+    display: flex;
+    justify-content: space-between;
+}
+/*  */
+.we_block_text{
+    margin-top: 21px;
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 124.5%;
+    color: #FFFFFF;
+}
+/*  */
+.we_icons{
+    margin-top: 50px;
+}

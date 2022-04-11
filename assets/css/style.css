@@ -185,17 +185,17 @@ a{
 }
 
 /* вторая секция */
-/*  */
+/* расположение блока */
 .calcul_wrapper{
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
 }
-/*  */
+/* расположение блока */
 .calcul_content{
     margin-top: 47px;
 }
-/*  */
+/* шрифт заголовка */
 .calcul_title{
     width: 630px;
     font-family: 'Proxima Nova';
@@ -205,12 +205,12 @@ a{
     text-transform: uppercase;
     color: #FFFFFF;    
 }
-/*  */
+/* линия под заголовком */
 .calcul_title_line{
     margin-left: 5px;
     margin-bottom: 14px;
 }
-/*  */
+/* цифры */
 .calcul_numbers{
     margin-top: -630px;
     position: absolute;
@@ -219,7 +219,7 @@ a{
     width: 262px;
     justify-content: space-between;
 }
-/*  */
+/* редактирование цифры 1 */
 .calcul_one{
     display: flex;
     align-items: center;
@@ -235,7 +235,7 @@ a{
     text-align: center;
     color: #FFFFFF;
 }
-/*  */
+/* редактирование цифр 2 и 3 */
 .calcul_number{
     display: flex;
     align-items: center;
@@ -253,11 +253,11 @@ a{
     box-sizing: border-box;
     border-radius: 90px;
 }
-/*  */
+/* расположение блока */
 .calcul_block{
     margin-top: 85px;
 }
-/*  */
+/* расположение блока и его вид */
 .calcul_card{
     width: 650px;
     height: 600px;
@@ -266,12 +266,12 @@ a{
     border-radius: 20px;
     margin-top: -35px;
 }
-/*  */
+/* расположение классав котором поля ввода */
 .calcul_inputs{
     padding-top: 70px;
     margin-left: 50px;
 }
-/*  */
+/* шрифт текста над полем ввода */
 .calcul_intro{
     font-family: 'Proxima Nova';
     font-weight: 600;
@@ -279,7 +279,7 @@ a{
     line-height: 126%;
     color: #FFFFFF;
 }
-/*  */
+/* вид поля ввода и текста в нем */
 .calcul_input{
     margin-top: 5px;
     border: none;
@@ -303,22 +303,22 @@ a{
     line-height: 126%;
     color: #CBCBCB;
 }
-/*  */
+/* расположение блока */
 .calcul_stone{
     display: flex;
     margin-bottom: 20px;
 }
-/*  */
+/* расположение блока */
 .calcul_stones{
     margin-right: 20px;
 }
-/*  */
+/* расположение текста */
 .calcul_text{
     width: 262px;
     display: flex;
     justify-content: space-between;
 }
-/*  */
+/* расположение кнопки рассчета и ее шрифт */
 .calcul_cal{
     cursor: pointer;
     border: none;
@@ -334,11 +334,11 @@ a{
 .calcul_cal:hover{
     transform: scale(1.03);
 }
-/*  */
+/* расположение блока */
 .calcul_stones2{
     margin-left: 74px;
 }
-/*  */
+/* расположение блока */
 .calcul_check{
     display: flex;
     align-items: center;
@@ -346,7 +346,7 @@ a{
 .calcul_checks{
     margin-top: 25px;
 }
-/*  */
+/* текст */
 .calcul_check_text{
     margin-left: 10px;
     font-family: 'Proxima Nova';
@@ -356,23 +356,23 @@ a{
     color: #FFFFFF;
     margin-bottom: 17px;
 }
-/*  */
+/* настройка галочки */
 .check{
     cursor: pointer;
     width: 24px;
     height: 24px;
     margin-top: -20px;
 }
-/*  */
+/* расположение текста */
 .calcul_photos_text{
     display: flex;
     justify-content: space-between;
 }
-/*  */
+/* ширина фотографий */
 .calcul_photos{
     width: 555px;
 }
-/*  */
+/* шрифт текста в фото */
 .calcul_photos_text_photo{
     font-family: 'Proxima Nova';
     font-weight: 400;
@@ -380,7 +380,7 @@ a{
     line-height: 126%;
     color: #FFFFFF;
 }
-/*  */
+/* кнопка и ее свойства */
 .calcul_photos_btn{
     border: none;
     background: none;
@@ -462,8 +462,8 @@ a{
     margin-left: 50px;
 }
 
-/*  */
-/*  */
+/* третья секция */
+/* вид формы */
 .we{
     background: linear-gradient(0deg, #363A4D, #363A4D), #F7F7F7;
     border-radius: 20px;
@@ -471,7 +471,7 @@ a{
     height: 725px;
     margin: 0 auto;
 }
-/*  */
+/* шрифт заголовка */
 .we_title{
     text-align: center;
     font-family: 'Proxima Nova';
@@ -487,19 +487,19 @@ a{
 .we_title:hover{
     color: #E58D35;
 }
-/*  */
+/* расположение линии */
 .we_line{
     display: flex;
     margin: 0 auto;
 }
-/*  */
+/* свойства иконок при наведении */
 .we_icon{
     transition: 0.5s;
 }
 .we_icon:hover{
     transform: scale(1.1);
 }
-/*  */
+/* расположение блоков с иконками */
 .we_block{
     text-align: center;
 }
@@ -512,12 +512,12 @@ a{
     margin-right: -48px;
 
 }
-/*  */
+/* расположение блоков */
 .we_icons{
     display: flex;
     justify-content: space-between;
 }
-/*  */
+/* шрифт текста под иконками */
 .we_block_text{
     margin-top: 21px;
     font-family: 'Proxima Nova';
@@ -526,19 +526,19 @@ a{
     line-height: 124.5%;
     color: #FFFFFF;
 }
-/*  */
+/* сдвиг иконок */
 .we_icons{
     margin-top: 50px;
 }
 
-/*  */
-/*  */
+/* четвертая секция */
+/* расположение блока */
 .var_content{
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
 }
-/*  */
+/* шрифт заголовка */
 .var_title{
     font-family: 'Proxima Nova';
     font-weight: 700;
@@ -550,12 +550,12 @@ a{
     margin-top: 95px;
     margin-bottom: 20px;
 }
-/*  */
+/* расположение линии */
 .var_line{
     display: flex;
     margin: 0 auto;
 }
-/*  */
+/* вид карточки */
 .var_card{
     width: 360px;
     height: 480px;
@@ -567,7 +567,7 @@ a{
 .var_card:hover{
     transform: scale(1.01);
 }
-/*  */
+/* шрифт в карточке */
 .var_card_title{
     font-family: 'Proxima Nova';
     margin-top: 25px;
@@ -577,7 +577,7 @@ a{
     text-align: center;
     color: #FFFFFF;
 }
-/*  */
+/* иконки в карточке */
 .var_card_icon{
     display: flex;
     width: 200px;
@@ -587,7 +587,7 @@ a{
 .var_card_icons{
     display: flex;
 }
-/*  */
+/* шрифт текста внутри карточки */
 .var_card_srok{
     margin-left: 10px;
     font-family: 'Proxima Nova';
@@ -616,14 +616,14 @@ a{
     font-size: 24px;
     font-weight: 700;
 }
-/*  */
+/* расположение кнопок */
 .var_card_btns{
     display: flex;
     justify-content: space-between;
     width: 320px;
     margin: 0 auto;
 }
-/*  */
+/* вид кнопок */
 .var_card_btn{
     background: #E58D35;
     border-radius: 90px;
@@ -656,7 +656,7 @@ a{
 .var_card_btn2:hover{
     box-shadow: 0 0 5px #E58D35;
 }
-/*  */
+/* расположение блока для размещения стрелок */
 .var_all{
     margin: 0 auto;
     width: 1312px;
@@ -664,7 +664,7 @@ a{
     align-items: center;
     justify-content: space-between;
 }
-/*  */
+/* сдвиг стрелок */
 .var_arrow{
     margin-top: 150px;
     transition: 0.5s;
@@ -672,11 +672,11 @@ a{
 .var_arrow:hover{
     transform: scale(1.1);
 }
-/*  */
+/* ширина блока */
 .var_wrapper{
     width: 1140px;
 }
-/*  */
+/* отступ от блока */
 .var{
     margin-bottom: 100px;
 }

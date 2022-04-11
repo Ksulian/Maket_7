@@ -795,14 +795,54 @@ a{
     background-color: #E58D35;
     box-shadow: 0 0 5px #E58D35;
 }
+/* 6 секция */
+/*  */
+.connect_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.connect_title{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 124.5%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+/*  */
+.connect_line{
+    margin-bottom: 45px;
+}
+/*  */
+.connect_text{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+    width: 555px;
+    color: #FFFFFF;
+}
+/*  */
+.connect_photo{
+    transition: 0.5s;
+}
+.connect_photo:hover{
+    transform: scale(1.05);
+}
 
-/* шестая секция */
+/* 8 секция */
 /*  */
 .about_wrapper{
     margin: 100px 0;
 }
 /*  */
 .about_title{
+    padding-top: 100px;
     font-family: 'Proxima Nova';
     font-style: normal;
     font-weight: 700;
@@ -875,4 +915,11 @@ a{
 }
 .arrow_about{
     margin-left: 20px;
+}
+.about{
+    width: 1820px;
+    height: 1397px;
+    background: linear-gradient(0deg, #363A4D, #363A4D), #F7F7F7;
+    border-radius: 20px;
+    margin: 0 auto;
 }

@@ -923,3 +923,115 @@ a{
     border-radius: 20px;
     margin: 0 auto;
 }
+
+/*  */
+/*  */
+.footer{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+/*  */
+.footer_hr{
+    margin-bottom: 35px;
+    /* width: 1250px; */
+    height: 2px;
+    border: none;
+    background: #E58D35;
+}
+/*  */
+.footer_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+/*  */
+.footer_nav{
+    display: grid;
+}
+/*  */
+.footer_logo{
+    margin-bottom: 30px;
+    transition: 0.5s;
+}
+.footer_logo:hover{
+    transform: scale(1.05);
+}
+/*  */
+.footer_num{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 162.5%;
+    color: #FFFFFF;
+    margin-bottom: 6px;
+}
+.footer_num:hover{
+    text-decoration: underline;
+}
+.footer_email{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 162.5%;
+    color: #FFFFFF;
+    margin-bottom: 6px;
+}
+.footer_email:hover{
+    text-decoration: underline;
+}
+.footer_adress{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 162.5%;
+    color: #FFFFFF;
+    margin-bottom: 6px;
+}
+.footer_adress:hover{
+    text-decoration: underline;
+}
+.footer_text{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 162.5%;
+    color: #FFFFFF;
+    margin-bottom: 6px;
+}
+.footer_social{
+    display: flex;
+    width: 117px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+/*  */
+.footer_a_nav{
+    display: grid;
+}
+/*  */
+.footer_title{
+    margin-bottom: 15px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 146%;
+    color: #FFFFFF;
+}
+/*  */
+.footer_nav2_a{
+    text-decoration: underline;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160.5%;
+    margin-bottom: 9px;
+    color: #85899C;
+}
+.footer_nav2_a:hover{
+    color: #FFFFFF;
+}
